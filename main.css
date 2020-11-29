@@ -1,0 +1,106 @@
+#links img,footer img, li img, h1 img, h2 img, h3 img, p img, .dropme img {
+  max-height: 1em;
+  max-width: 1.5em;
+}
+
+body {
+  max-width: 900px;
+  position: relative;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 1em;
+  color: inherit;
+  background: inherit;
+}
+
+html {
+  background: #fff;
+  color: #000;
+  padding-bottom: 500px;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  text-align: center;
+  text-shadow: -1px 3px 3px rgba(0, 0, 0, 0.68);
+}
+
+a {
+  color: blue;
+}
+
+.mainpix {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.sidepix {
+  max-width: 300px;
+  float: right;
+}
+
+nav {
+  position: relative;
+  z-index: 1;
+  font-size: larger;
+  text-align: center;
+}
+
+.menubar {
+  display: inline-block;
+  margin: 0px;
+  padding: 0px;
+}
+
+.menubar li {
+  display: block;
+  float: left;
+  border: #444 solid 2px;
+  background: #222;
+  padding: 10px;
+  margin: 4px;
+}
+
+.menubar li a {
+  color: #fff;
+}
+
+.menubar li:hover {
+  background: #000;
+}
+
+.menubar li ul {
+  visibility: hidden;
+  position: absolute;
+  padding: 0px;
+  margin-left: -16px;
+  padding-top: 14px;
+}
+
+.menubar li ul li {
+  float: none;
+  position: relative;
+}
+.menubar li:hover ul {
+  visibility: visible;
+}
+
+article {
+  background-color: lightgray;
+  padding: 30px;
+  margin: 50px;
+}
+
+article h2 {
+  margin: 0;
+}
+
+article p {
+  margin-bottom: 0;
+}
+
+.date {
+  position: absolute;
+  top: 0;
+  right: 0;
+}
